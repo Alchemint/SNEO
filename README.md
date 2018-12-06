@@ -16,9 +16,8 @@ SNEO Contract Address: APpPwwwrYTfCUmjEKMDongunLyh4YGVXKR
 
 ### Overview:
 
-SNEO refer to NEP-5 contract assets issued by NGD (NEO Global Development). SNEO can be exchanged for NEO at a 1:1 ratio and are fully refundable. The contract aims to map global assets NEO for the benefit of its internal transfer using the method of contract invocation. 
-
-NGD provides the community with a common contract for SNEO, which can be used by each project to its own project. We did not add Claim GAS function to the contract because of the contract limitation and the problem of centralization. If the project party wants to do the centralized claim GAS function, can fork the code to develop itself.
+SNEO refer to NEP-5 contract assets issued by NGD (NEO Global Development). SNEO can be exchanged for NEO at a 1:1 ratio and are fully refundable. The contract aims to map global assets NEO for the benefit of its internal transfer using the method of contract invocation.
+And it has claim gas function.
 
 ### Descriptions:
 
@@ -322,9 +321,7 @@ refund 2nd step is a ContractTransaction, so no application log.
 
 ### 合约说明：
 
-SNEO 是由 NGD（NEO Global Development）发布的符合 NEP-5 规范的合约资产，SNEO 可由 NEO 一比一地对换，并且支持退回操作。该合约的目的是将 NEO 进行全局资产的合约映射，使全局资产 NEO 可以方便地在合约内部流转，支持由合约调用转账。
-
-NGD 为社区提供了 SNEO 这样一个公用的合约，各项目方均可将其用到自己的项目中。因为智能合约底层限制、也为了去中心化和防止权力滥用，我们没有在 SNEO 中添加提取 GAS 的功能，如果项目方有中心化提取 GAS 的需求，可以 Fork 该代码，然后自行开发。
+SNEO 是由 NGD（NEO Global Development）发布的符合 NEP-5 规范的合约资产，SNEO 可由 NEO 一比一地对换，并且支持退回操作。该合约的目的是将 NEO 进行全局资产的合约映射，使全局资产 NEO 可以方便地在合约内部流转，支持由合约调用转账，而且本合约已经提供提取GAS的功能。
 
 ### 技术介绍：
 
